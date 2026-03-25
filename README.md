@@ -122,9 +122,6 @@ The parser uses Python's `xml.etree.ElementTree.iterparse` to stream through the
 **Q: Why not use the [krumjahn/applehealth](https://github.com/krumjahn/applehealth) repo?**
 It requires `openai`, `anthropic`, `ollama`, `PyQt6`, and other heavy AI/GUI dependencies just to parse XML. This tool does the same data extraction with only `pandas`.
 
-**Q: The XML file is named `导出.xml`, not `export.xml`?**
-Chinese-locale iPhones name the export file `导出.xml`. Both work — just pass the correct filename to the script.
-
 **Q: What about ECG data?**
 ECG recordings are exported as separate CSV files in `raw/electrocardiograms/`, not embedded in the XML. They're already in a usable format.
 
