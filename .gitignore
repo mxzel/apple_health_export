@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+.claude/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv
+
+# Raw data (too large for git)
+raw/*.xml
+raw/electrocardiograms/
+raw/workout-routes/
+
+# Output (regenerable)
+output/

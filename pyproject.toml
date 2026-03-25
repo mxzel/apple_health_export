@@ -1,0 +1,11 @@
+[project]
+name = "apple-health-export"
+version = "0.1.0"
+description = "Fast, lightweight Apple Health XML export parser — extracts all health records, HRV beats, workouts, and activity data into clean CSVs."
+requires-python = ">=3.10"
+license = "MIT"
+readme = "README.md"
+dependencies = [
+    "matplotlib>=3.7.0",
+    "pandas>=2.0.0",
+]
