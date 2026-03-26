@@ -30,7 +30,7 @@ cp /path/to/export.xml raw/    # or raw/export.xml
 # Parse everything
 just export
 # or manually:
-uv run python scripts/export_csv.py raw/导出.xml --out output
+uv run python scripts/export_csv.py raw/export.xml --out output
 ```
 
 > **Prerequisites**: [uv](https://docs.astral.sh/uv/) and [just](https://github.com/casey/just) (optional). No other setup needed — `uv` handles the virtualenv and dependencies automatically.
